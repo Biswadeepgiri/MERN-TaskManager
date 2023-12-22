@@ -23,6 +23,7 @@ app.get("/", (req, res) => {
 });
 
 const PORT = 5000;
+//logic for connecting the mongodb database
 mongoose
   .connect("mongodb+srv://biswadeepgiri48:EixhAjM2KorgF7zK@cluster0.wemoad7.mongodb.net/Task_manager?retryWrites=true&w=majority")
 
